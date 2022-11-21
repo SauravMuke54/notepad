@@ -23,7 +23,7 @@ def newwin():
     menu=StringVar()
     Label(new,text="Choose Font").pack(pady=0,padx=0)
     menu.set("Select Font")
-    drop=OptionMenu(new,,"Calibri","Roman")
+    drop=OptionMenu(new,menu,"Calibri","Roman")
     drop.pack(padx=10)
 def feed():
     webbrowser.open_new("www.gmail.com")
